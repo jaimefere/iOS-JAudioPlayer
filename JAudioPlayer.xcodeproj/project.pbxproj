@@ -19,6 +19,12 @@
 		BD8F5B7A18BD169D004AA66D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8F5B6218BD169D004AA66D /* UIKit.framework */; };
 		BD8F5B8218BD169D004AA66D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD8F5B8018BD169D004AA66D /* InfoPlist.strings */; };
 		BD8F5B8418BD169D004AA66D /* JAudioPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8F5B8318BD169D004AA66D /* JAudioPlayerTests.m */; };
+		BD9404BB18BD1DA100A2DAB9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9404BA18BD1DA100A2DAB9 /* AVFoundation.framework */; };
+		BD9404BD18BD1DA900A2DAB9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9404BC18BD1DA900A2DAB9 /* AudioToolbox.framework */; };
+		BD9404BF18BD1DFB00A2DAB9 /* tracks.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD9404BE18BD1DFB00A2DAB9 /* tracks.plist */; };
+		BD9404C218BD1E0300A2DAB9 /* JMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9404C118BD1E0300A2DAB9 /* JMPViewController.m */; };
+		BD9404C518BD1E0D00A2DAB9 /* FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9404C418BD1E0D00A2DAB9 /* FileUtils.m */; };
+		BD9404C718BD1E1A00A2DAB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9404C618BD1E1A00A2DAB9 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,14 @@
 		BD8F5B7F18BD169D004AA66D /* JAudioPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JAudioPlayerTests-Info.plist"; sourceTree = "<group>"; };
 		BD8F5B8118BD169D004AA66D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD8F5B8318BD169D004AA66D /* JAudioPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAudioPlayerTests.m; sourceTree = "<group>"; };
+		BD9404BA18BD1DA100A2DAB9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BD9404BC18BD1DA900A2DAB9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BD9404BE18BD1DFB00A2DAB9 /* tracks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tracks.plist; sourceTree = "<group>"; };
+		BD9404C018BD1E0300A2DAB9 /* JAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAPViewController.h; sourceTree = "<group>"; };
+		BD9404C118BD1E0300A2DAB9 /* JMPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPViewController.m; sourceTree = "<group>"; };
+		BD9404C318BD1E0D00A2DAB9 /* FileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtils.h; sourceTree = "<group>"; };
+		BD9404C418BD1E0D00A2DAB9 /* FileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtils.m; sourceTree = "<group>"; };
+		BD9404C618BD1E1A00A2DAB9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9404BD18BD1DA900A2DAB9 /* AudioToolbox.framework in Frameworks */,
+				BD9404BB18BD1DA100A2DAB9 /* AVFoundation.framework in Frameworks */,
 				BD8F5B6118BD169D004AA66D /* CoreGraphics.framework in Frameworks */,
 				BD8F5B6318BD169D004AA66D /* UIKit.framework in Frameworks */,
 				BD8F5B5F18BD169D004AA66D /* Foundation.framework in Frameworks */,
@@ -78,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				BD8F5B6418BD169D004AA66D /* JAudioPlayer */,
+				BD9404B918BD1D8D00A2DAB9 /* Resources */,
 				BD8F5B7D18BD169D004AA66D /* JAudioPlayerTests */,
 				BD8F5B5D18BD169D004AA66D /* Frameworks */,
 				BD8F5B5C18BD169D004AA66D /* Products */,
@@ -96,6 +113,8 @@
 		BD8F5B5D18BD169D004AA66D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD9404BC18BD1DA900A2DAB9 /* AudioToolbox.framework */,
+				BD9404BA18BD1DA100A2DAB9 /* AVFoundation.framework */,
 				BD8F5B5E18BD169D004AA66D /* Foundation.framework */,
 				BD8F5B6018BD169D004AA66D /* CoreGraphics.framework */,
 				BD8F5B6218BD169D004AA66D /* UIKit.framework */,
@@ -107,8 +126,11 @@
 		BD8F5B6418BD169D004AA66D /* JAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				BD9404B718BD1D7800A2DAB9 /* Utils */,
+				BD9404B818BD1D7F00A2DAB9 /* ViewControllers */,
 				BD8F5B6D18BD169D004AA66D /* JAPAppDelegate.h */,
 				BD8F5B6E18BD169D004AA66D /* JAPAppDelegate.m */,
+				BD9404C618BD1E1A00A2DAB9 /* Main.storyboard */,
 				BD8F5B7018BD169D004AA66D /* Images.xcassets */,
 				BD8F5B6518BD169D004AA66D /* Supporting Files */,
 			);
@@ -142,6 +164,33 @@
 				BD8F5B8018BD169D004AA66D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD9404B718BD1D7800A2DAB9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BD9404C318BD1E0D00A2DAB9 /* FileUtils.h */,
+				BD9404C418BD1E0D00A2DAB9 /* FileUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		BD9404B818BD1D7F00A2DAB9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD9404C018BD1E0300A2DAB9 /* JAPViewController.h */,
+				BD9404C118BD1E0300A2DAB9 /* JMPViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BD9404B918BD1D8D00A2DAB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD9404BE18BD1DFB00A2DAB9 /* tracks.plist */,
+			);
+			name = Resources;
+			path = JAudioPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9404BF18BD1DFB00A2DAB9 /* tracks.plist in Resources */,
 				BD8F5B6918BD169D004AA66D /* InfoPlist.strings in Resources */,
 				BD8F5B7118BD169D004AA66D /* Images.xcassets in Resources */,
+				BD9404C718BD1E1A00A2DAB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9404C218BD1E0300A2DAB9 /* JMPViewController.m in Sources */,
 				BD8F5B6F18BD169D004AA66D /* JAPAppDelegate.m in Sources */,
 				BD8F5B6B18BD169D004AA66D /* main.m in Sources */,
+				BD9404C518BD1E0D00A2DAB9 /* FileUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +495,7 @@
 				BD8F5B8918BD169D004AA66D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD8F5B8A18BD169D004AA66D /* Build configuration list for PBXNativeTarget "JAudioPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +504,7 @@
 				BD8F5B8C18BD169D004AA66D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

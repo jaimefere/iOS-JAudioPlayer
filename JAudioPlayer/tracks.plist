@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>April Showers - ProleteR</string>
+		<key>url</key>
+		<string>https://docs.google.com/uc?export=download&amp;id=0B5nIHxtmSI-ETmJpTzEwUkRpdTA</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Breathe In Breathe Out - Singleton</string>
+		<key>url</key>
+		<string>https://docs.google.com/uc?export=download&amp;id=0B5nIHxtmSI-Ed3J3WFdlMXZqS3M</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Silver Screen Love - Lyonn</string>
+		<key>url</key>
+		<string>https://dl.dropboxusercontent.com/u/7850919/JAudioPlayer/Lyonn_-_Silver_Screen_Love.mp3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cash For Time - Nyco</string>
+		<key>url</key>
+		<string>https://dl.dropboxusercontent.com/u/7850919/JAudioPlayer/NYCO_-_CASH_FOR_TIME.mp3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Get Out - KnockOut</string>
+		<key>url</key>
+		<string>https://skydrive.live.com/download?resid=8D2C271B8CE80AF0%21884</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Your Hair Is On Fire - Leslie Hunt</string>
+		<key>url</key>
+		<string>https://skydrive.live.com/download?resid=8D2C271B8CE80AF0%21885</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sweet - Tamara Laurel</string>
+		<key>url</key>
+		<string>https://dl.dropboxusercontent.com/u/7850919/JAudioPlayer/Tamara_Laurel_-_Sweet.mp3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sleeping Lions - The Wind Whistles</string>
+		<key>url</key>
+		<string>https://dl.dropboxusercontent.com/u/7850919/JAudioPlayer/The_Wind_Whistles_-_Sleeping_Lions.mp3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>There&apos;s Something Wrong - Brad Sucks</string>
+		<key>url</key>
+		<string>http://jaudioplayer.blob.core.windows.net/audio/Brad_Sucks_-_There_s_Something_Wrong.mp3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Epic Intermission - Daniel Bautista</string>
+		<key>url</key>
+		<string>http://jaudioplayer.blob.core.windows.net/audio/Daniel_Bautista_-_Epic_Intermission.mp3</string>
+	</dict>
+</array>
+</plist>

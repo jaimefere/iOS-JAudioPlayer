@@ -6,9 +6,11 @@
 //  Copyright (c) 2014 Jaime Fernández. All rights reserved.
 //
 
+#import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioToolbox.h>
 #import <UIKit/UIKit.h>
 
-@interface JAPAppDelegate : UIResponder <UIApplicationDelegate>
+@interface JAPAppDelegate : UIResponder <UIApplicationDelegate, AVAudioSessionDelegate, AVAudioPlayerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
