@@ -1,4 +1,4 @@
-iOS-JAudioPlayer
+JAudioPlayer
 ================
 
 iOS Audio Player
