@@ -25,6 +25,7 @@
 		BD9404C218BD1E0300A2DAB9 /* JMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9404C118BD1E0300A2DAB9 /* JMPViewController.m */; };
 		BD9404C518BD1E0D00A2DAB9 /* FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9404C418BD1E0D00A2DAB9 /* FileUtils.m */; };
 		BD9404C718BD1E1A00A2DAB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9404C618BD1E1A00A2DAB9 /* Main.storyboard */; };
+		BDC12DE818BE3FB500891B93 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BDC12DE718BE3FB500891B93 /* README.md */; };
 		BDD56A4918BE2FDF00852988 /* landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD56A4618BE2FDF00852988 /* landscape.png */; };
 		BDD56A4A18BE2FDF00852988 /* portrait4.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD56A4718BE2FDF00852988 /* portrait4.png */; };
 		BDD56A4B18BE2FDF00852988 /* portrait5.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD56A4818BE2FDF00852988 /* portrait5.png */; };
@@ -65,6 +66,7 @@
 		BD9404C318BD1E0D00A2DAB9 /* FileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtils.h; sourceTree = "<group>"; };
 		BD9404C418BD1E0D00A2DAB9 /* FileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtils.m; sourceTree = "<group>"; };
 		BD9404C618BD1E1A00A2DAB9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BDC12DE718BE3FB500891B93 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		BDD56A4618BE2FDF00852988 /* landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = landscape.png; path = Screenshots/landscape.png; sourceTree = "<group>"; };
 		BDD56A4718BE2FDF00852988 /* portrait4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = portrait4.png; path = Screenshots/portrait4.png; sourceTree = "<group>"; };
 		BDD56A4818BE2FDF00852988 /* portrait5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = portrait5.png; path = Screenshots/portrait5.png; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		BD8F5B5218BD169D004AA66D = {
 			isa = PBXGroup;
 			children = (
+				BDC12DE718BE3FB500891B93 /* README.md */,
 				BD8F5B6418BD169D004AA66D /* JAudioPlayer */,
 				BD9404B918BD1D8D00A2DAB9 /* Resources */,
 				BD8F5B7D18BD169D004AA66D /* JAudioPlayerTests */,
@@ -292,6 +295,7 @@
 				BD8F5B7118BD169D004AA66D /* Images.xcassets in Resources */,
 				BDD56A4A18BE2FDF00852988 /* portrait4.png in Resources */,
 				BD9404C718BD1E1A00A2DAB9 /* Main.storyboard in Resources */,
+				BDC12DE818BE3FB500891B93 /* README.md in Resources */,
 				BDD56A4918BE2FDF00852988 /* landscape.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

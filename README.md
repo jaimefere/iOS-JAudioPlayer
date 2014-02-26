@@ -1,7 +1,7 @@
 JAudioPlayer
 ================
 
-### iOS Audio Player
+## iOS Audio Player
 
 JAudioPlayer is a simple music player for iOS and Android.
 
