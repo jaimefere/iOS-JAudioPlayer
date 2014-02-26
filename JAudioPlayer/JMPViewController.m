@@ -28,7 +28,7 @@
     [_backButton setBackgroundImage:[UIImage imageNamed:@"backward_icon.png"] forState:UIControlStateNormal];
     [_nextButton setBackgroundImage:[UIImage imageNamed:@"forward_icon.png"] forState:UIControlStateNormal];
     [self customizeToggleButtons];
-    startPlaying = NO;
+    startPlaying = YES;
     downloadingAll = NO;
     [_trackProgress setValue:0.0];
 }
