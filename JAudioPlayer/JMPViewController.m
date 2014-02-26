@@ -439,16 +439,20 @@
         switch (receivedEvent.subtype) {
             case UIEventSubtypeRemoteControlPlay:
                 [self playSong];
+                songStatus = PLAYING;
                 break;
             case UIEventSubtypeRemoteControlPause:
                 [self pauseSong];
+                songStatus = DOWNLOADED;
                 break;
             case UIEventSubtypeRemoteControlTogglePlayPause:
                 if (_player.playing) {
                     [self pauseSong];
+                    songStatus = DOWNLOADED;
                 }
                 else {
                     [self playSong];
+                    songStatus = PLAYING;
                 }
                 break;
             case UIEventSubtypeRemoteControlNextTrack:
